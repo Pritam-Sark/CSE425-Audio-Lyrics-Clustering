@@ -1,0 +1,11 @@
+data/
+
+*.mp3
+
+*.wav
+
+__pycache__/
+
+venv/
+
+results/
