@@ -10,7 +10,7 @@ The file structure follows the project requirements:
 
 ```text
 CSE425-Audio-Lyrics-Clustering/
-├── data/                       # Dataset (Audio .mp3 and Lyrics .csv)
+├── data/                       # Dataset (Audio .mp3 and Lyrics .csv)...(Not Uploaded here}
 ├── notebooks/
 │   ├── Easy_Task.ipynb         # Baseline Linear VAE (Audio Only)
 │   ├── Medium_Task.ipynb       # ConvVAE + Hybrid Clustering
