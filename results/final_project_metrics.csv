@@ -1,0 +1,4 @@
+Task,Method,Silhouette,ARI,NMI,Purity
+Easy,Baseline (VAE+PCA),0.091,0.026,0.041,0.218
+Medium,Beta-VAE (Audio Only),0.069,0.027,0.058,0.237
+Hard,Multi-Modal (Audio+Lyrics),0.075,0.029,0.059,0.235
