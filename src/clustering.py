@@ -28,7 +28,6 @@ class ClusterPipeline:
 
     def fuse_features(self, audio_features, lyrics_features):
         """Concatenates Audio and Lyrics features."""
-        # Normalize separately before fusing
         aud_norm = self.scaler.fit_transform(audio_features)
         lyr_norm = self.scaler.fit_transform(lyrics_features)
         return np.hstack([aud_norm, lyr_norm])
