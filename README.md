@@ -2,7 +2,7 @@ Multimodal Audio-Lyrics Clustering with Beta-VAE
 
  📌 Project Overview
 This project implements a Deep Learning approach to cluster music tracks by fusing Audio Spectrograms and Lyrics. 
-
+Dataset Link- https://drive.google.com/drive/folders/1zAUueLcQicbKDaOnpUEd-Su81SrZm5Jv?usp=drive_link
 
 
  📂 Project Structure
@@ -11,6 +11,7 @@ The file structure follows the project requirements:
 ```text
 CSE425-Audio-Lyrics-Clustering/
 ├── data/                       # Dataset (Audio .mp3 and Lyrics .csv)...(Not Uploaded here}
+                                 Dataset Link- https://drive.google.com/drive/folders/1zAUueLcQicbKDaOnpUEd-Su81SrZm5Jv?usp=drive_link
 ├── notebooks/
 │   ├── Easy_Task.ipynb         # Baseline Linear VAE (Audio Only)
 │   ├── Medium_Task.ipynb       # ConvVAE + Hybrid Clustering
